@@ -6,6 +6,11 @@
 body {
   font-family: "Lato", sans-serif;
 }
+p {
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
 .container-full {
   width: 100%;
 }
@@ -58,9 +63,6 @@ body {
   padding-bottom: 30px;
 }
 .banner-content p {
-  font-size: 20px;
-  text-align: center;
-  line-height: 1.5;
   padding-bottom: 50px;
 }
 .donate-now {
@@ -77,4 +79,61 @@ body {
 .donate-now:hover {
   background: #ff6666;
   /* opacity: 0.9; */
+}
+
+/* donate now  */
+
+.donate {
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donate-content h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+.donate-amount {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.donate-amount .amount {
+  padding: 50px 60px;
+  background: #f4f4f4;
+  border-radius: 5px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.donate-amount .amount:hover,
+.amount.selected {
+  background-color: #febcbc;
+  border: 2px solid #ff5959;
+}
+
+.other-amount {
+  width: 70%;
+  padding: 10px;
+  display: block;
+  margin: 25px auto;
+  border: none;
+  border-bottom: 2px solid #dbdbdb;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+
+.other-amount::placeholder {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+input.other-amount:focus {
+  outline: none;
 }
