@@ -137,3 +137,16 @@ p {
 input.other-amount:focus {
   outline: none;
 }
+
+/* footer start */
+footer {
+  padding: 50px 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.footer-content h1{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #ff5959;
+}
